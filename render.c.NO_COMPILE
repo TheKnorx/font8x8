@@ -1,3 +1,4 @@
+#ifdef NOT_DEFINED
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -37,3 +38,4 @@ int main(int argc, char **argv) {
     render(bitmap);
     return 0;
 }
+#endif
